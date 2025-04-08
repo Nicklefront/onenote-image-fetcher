@@ -1,0 +1,106 @@
+Metadata-Version: 2.4
+Name: onenote_image_fetcher
+Version: 0.1.0
+Summary: A tool to fetch images from Microsoft OneNote
+Home-page: https://github.com/yourusername/onenote_image_fetcher
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: msal
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# OneNote Image Fetcher
+
+A Python tool to fetch images from Microsoft OneNote pages.
+
+## Features
+
+- Authenticate with Microsoft Graph API
+- List OneNote notebooks, sections, and pages
+- Scan pages for images
+- Download images with proper folder structure
+- Automatic token refresh
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/onenote_image_fetcher.git
+cd onenote_image_fetcher
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the package in development mode:
+```bash
+pip install -e .
+```
+
+## Configuration
+
+Create a `.env` file in the project root with:
+```
+CLIENT_ID=your_client_id
+CLIENT_SECRET=your_client_secret
+TENANT_ID=your_tenant_id
+REDIRECT_URI=http://localhost:5000/getToken
+```
+
+## Usage
+
+Run the application:
+```bash
+python -m src
+```
+
+The application will:
+1. Start a Flask server
+2. Open a browser window for authentication
+3. After authentication:
+   - List your OneNote notebooks
+   - Let you choose a notebook to scan
+   - Scan for pages with images
+   - Let you choose a page
+   - Download the first image from that page
+
+## Project Structure
+
+```
+ImageFetchOneNote/
+├── src/
+│   ├── auth/          # Authentication and API calls
+│   ├── onenote/       # OneNote operations
+│   └── utils/         # Shared utilities
+├── tests/             # Test files
+├── .env              # Environment variables
+└── setup.py          # Project installation
+```
+
+## Dependencies
+
+- Python 3.6+
+- Flask
+- MSAL (Microsoft Authentication Library)
+- python-dotenv
+- requests
+- beautifulsoup4 

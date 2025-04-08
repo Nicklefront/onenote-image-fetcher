@@ -1,0 +1,75 @@
+2025-04-08 04:08:34,598 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-08 04:08:34,598 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 04:08:37,821 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:08:37] "GET / HTTP/1.1" 200 -
+2025-04-08 04:12:00,938 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-08 04:12:00,939 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 04:12:02,417 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:12:02] "GET / HTTP/1.1" 200 -
+2025-04-08 04:12:03,435 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:12:03] "GET / HTTP/1.1" 200 -
+2025-04-08 04:12:30,973 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-08 04:12:30,973 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 04:12:32,684 - src.auth.graph_client - INFO - Starting image fetcher...
+2025-04-08 04:12:32,687 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:12:32] "GET / HTTP/1.1" 200 -
+2025-04-08 04:12:32,955 - src.onenote.fetcher - ERROR - Error in image fetching process: name 'requests' is not defined
+2025-04-08 04:13:43,843 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-08 04:13:43,843 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 04:13:45,978 - src.auth.graph_client - INFO - Starting image fetcher...
+2025-04-08 04:13:45,983 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:13:45] "GET / HTTP/1.1" 200 -
+2025-04-08 04:13:46,392 - src.auth.graph_client - INFO - Making API call to: me/onenote/notebooks
+2025-04-08 04:13:48,093 - src.onenote.fetcher - INFO - 
+Available notebooks:
+2025-04-08 04:13:48,093 - src.onenote.fetcher - INFO - 1. Mein Notizbuch
+2025-04-08 04:14:41,280 - src.auth.graph_client - INFO - Making API call to: me/onenote/notebooks/1-9a55cfce-3aaa-4386-9359-6fd30f9ab997/sections
+2025-04-08 04:14:43,021 - src.onenote.fetcher - ERROR - Error in image fetching process: 'NoneType' object has no attribute 'get'
+2025-04-08 04:15:44,337 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-04-08 04:15:44,337 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 04:15:46,049 - src.auth.graph_client - INFO - Starting image fetcher...
+2025-04-08 04:15:46,056 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:15:46] "GET / HTTP/1.1" 200 -
+2025-04-08 04:15:46,372 - src.auth.graph_client - INFO - Fetching notebooks...
+2025-04-08 04:15:46,373 - src.auth.graph_client - INFO - Making API call to: me/onenote/notebooks
+2025-04-08 04:15:46,792 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 04:15:46] "GET /progress HTTP/1.1" 200 -
+2025-04-08 04:15:46,952 - src.auth.graph_client - INFO - Found 1 notebooks.
+2025-04-08 04:15:46,952 - src.auth.graph_client - INFO - 1. Mein Notizbuch
+2025-04-08 04:15:46,952 - src.auth.graph_client - INFO - Selected notebook: Mein Notizbuch
+2025-04-08 04:15:46,953 - src.auth.graph_client - INFO - Fetching sections...
+2025-04-08 04:15:46,953 - src.auth.graph_client - INFO - Making API call to: me/onenote/notebooks/1-9a55cfce-3aaa-4386-9359-6fd30f9ab997/sections
+2025-04-08 04:15:47,859 - src.auth.graph_client - INFO - Found 2 sections.
+2025-04-08 04:15:47,859 - src.auth.graph_client - INFO - Selected section: Abschnitt ohne Titel
+2025-04-08 04:15:47,859 - src.auth.graph_client - INFO - Fetching pages...
+2025-04-08 04:15:47,859 - src.auth.graph_client - INFO - Making API call to: me/onenote/sections/1-68854b96-3862-4157-b114-336c5e2430bd/pages
+2025-04-08 04:15:49,360 - src.auth.graph_client - INFO - Found 1 pages.
+2025-04-08 04:15:49,361 - src.auth.graph_client - INFO - Checking page: Untitled Page
+2025-04-08 04:15:49,361 - src.auth.graph_client - INFO - Making API call to: me/onenote/pages/1-bd87706d5b194cfdbfc56616f5eda1b0!17-68854b96-3862-4157-b114-336c5e2430bd/content
+2025-04-08 04:15:49,671 - src.auth.graph_client - INFO - API request failed: Expecting value: line 1 column 1 (char 0)
+2025-04-08 04:15:49,672 - src.auth.graph_client - INFO - Error in image fetcher: Expecting value: line 1 column 1 (char 0)
+2025-04-08 04:15:49,672 - src.onenote.fetcher - ERROR - Full traceback:
+Traceback (most recent call last):
+  File "/Users/tugaykaya/Downloads/Downloads 2/ImageFetchOneNote/venv/lib/python3.11/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tugaykaya/Downloads/Downloads 2/ImageFetchOneNote/src/onenote/fetcher.py", line 76, in start
+    page_content = self.graph_client.call_graph_api(f"me/onenote/pages/{page['id']}/content")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tugaykaya/Downloads/Downloads 2/ImageFetchOneNote/src/auth/graph_client.py", line 303, in call_graph_api
+    return response.json()
+           ^^^^^^^^^^^^^^^
+  File "/Users/tugaykaya/Downloads/Downloads 2/ImageFetchOneNote/venv/lib/python3.11/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

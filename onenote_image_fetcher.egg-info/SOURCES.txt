@@ -1,0 +1,7 @@
+README.md
+setup.py
+onenote_image_fetcher.egg-info/PKG-INFO
+onenote_image_fetcher.egg-info/SOURCES.txt
+onenote_image_fetcher.egg-info/dependency_links.txt
+onenote_image_fetcher.egg-info/requires.txt
+onenote_image_fetcher.egg-info/top_level.txt
