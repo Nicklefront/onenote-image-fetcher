@@ -46,6 +46,19 @@ token_cache.json
 *.token
 *.cache
 *.credentials
+*.json
+*.env
+config.json
+credentials.json
+auth.json
+
+# API Keys and Secrets
+*_key
+*_secret
+*_token
+*_password
+*_credential
+*_api_key
 
 # Logs
 logs/
